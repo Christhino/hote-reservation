@@ -1,0 +1,52 @@
+# ============================================
+# Backend - Java / Maven
+# ============================================
+
+# Fichiers de config locaux (identifiants DB, SMTP...)
+
+# ============================================
+# Frontend - Node / React / Vite
+# ============================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/*.local
+
+# Variables d'environnement frontend
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ============================================
+# IDE / Éditeurs
+# ============================================
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.iws
+
+# ============================================
+# Système d'exploitation
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Logs divers
+# ============================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ============================================
+# Divers
+# ============================================
+*.zip
+*.tmp
+*.bak
