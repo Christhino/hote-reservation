@@ -77,11 +77,3 @@ npm run dev
 
 L'application est disponible sur `http://localhost:5173`. Le proxy Vite redirige
 automatiquement les appels `/api/*` vers le backend Javalin (port 7000).
-
-## Fonctionnalités couvertes
-
-- CRUD complet sur les 4 tables (chambre, réservation, occupation, séjour) (10 pts)
-- Envoi automatique d'un email de confirmation après réservation (3 pts)
-- Contrôle : une chambre réservée sur une période ne peut plus être prise par un autre client (2 pts)
-- Recherche d'une chambre libre à une date donnée (2 pts)
-- Génération d'un reçu PDF pour un séjour (3 pts)
